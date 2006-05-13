@@ -1,0 +1,6 @@
+Revision history for Perl extension Unicode::Char.
+
+0.01  Sat May 13 13:14:28 2006
+	- original version; created by h2xs 1.23 with options
+		-XAn Unicode::Char
+
