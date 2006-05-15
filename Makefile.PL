@@ -1,5 +1,5 @@
 #
-# $Id: Makefile.PL,v 0.1 2006/05/13 06:04:54 dankogai Exp dankogai $
+# $Id: Makefile.PL,v 0.2 2006/05/15 08:14:53 dankogai Exp dankogai $
 #
 use strict;
 use warnings;
@@ -9,9 +9,9 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 WriteMakefile(
     NAME              => 'Unicode::Char',
-    VERSION_FROM      => 'Unicode/Char.pm', # finds $VERSION
+    VERSION_FROM      => 'lib/Unicode/Char.pm', # finds $VERSION
     PREREQ_PM         => {}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
-      (ABSTRACT_FROM  => 'Unicode/Char.pm', # retrieve abstract from module
+      (ABSTRACT_FROM  => 'lib/Unicode/Char.pm', # retrieve abstract from module
        AUTHOR         => 'Dan Kogai <dankogai@dan.co.jp>') : ()),
 );

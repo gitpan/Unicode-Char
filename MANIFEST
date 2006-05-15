@@ -2,7 +2,7 @@ Changes
 MANIFEST
 Makefile.PL
 README
-Unicode/Char.pm
+lib/Unicode/Char.pm
 t/00-load.t
 t/01-valid.t
 t/02-u.t

@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Carp;
 
-our $VERSION = sprintf "%d.%02d", q$Revision: 0.1 $ =~ /(\d+)/g;
+our $VERSION = sprintf "%d.%02d", q$Revision: 0.2 $ =~ /(\d+)/g;
 our $DEBUG = 0;
 
 our %Name2Chr;
@@ -125,7 +125,7 @@ These methods are generatated on demand.
 
 Returns a character whose Unicode Canonical Name is the argument.
 
-  $u->u('white smiling face'); 
+  $u->n('white smiling face'); 
 
 But as  C<< $u->u() >>, you may prefer the handier version:
 
